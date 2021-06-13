@@ -4,14 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node deneme.js",
-    "dev": "nodemon deneme.js",
+    "start": "node ./denemeler/deneme.js",
+    "dev": "nodemon ./denemeler/deneme.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.7"
   }
 }
