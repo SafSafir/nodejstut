@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./denemeler/deneme.js",
-    "dev": "nodemon ./denemeler/deneme.js",
+    "start": "node ./deneme.js",
+    "dev": "nodemon ./deneme.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
