@@ -3,7 +3,11 @@
 const express = require("express");
 const app = express();
 
+const authorize = require("./authorize");
+
 // req => middleware => res
+
+app.use(authorize);
 
 app.get("/", (req, res) => {
   const method = req.method;
